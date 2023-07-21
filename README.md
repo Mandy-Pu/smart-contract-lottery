@@ -1,2 +1,2 @@
 # smart-contract-lottery
-A smart contract/dApp for creating, manging, and ending a distributed lottery.
+A smart contract/dApp for creating, manging, and ending a distributed lottery. Contains functions for starting, entering, and ending the lottery; winner is selected randomly by requesting a random number from the chainlink oracle. Lottery participants have to pay 50 USD to enter the lottery; price feeds from chainlink are used to convert from USD to ETH and vice versa. Local testing was performed for the chainlink VRF version 1 while integration testing was performed for the chainlink VRF version 2 (smart contract will not work if it is tested on a local blockchain network). Contains python-based deployment scripts as well as unit and integration tests.
